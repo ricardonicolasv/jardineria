@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -21,28 +22,27 @@
                 </button>
                 <a class="navbar-brand" href="index.html">PLANTAYUDA</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="jardineria.html">JARDINERIA</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="flores.html">FLORES</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="macetero.html">MACETEROS</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="arbusto.html">ARBUSTOS</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="tierra.html">TIERRA DE HOJA</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="contacto.html">QUIENES SOMOS</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="carro.html">CARRO COMPRAS</a></li>
-                </ul>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="jardineria.html">JARDINERIA</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">PRODUCTOS</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="flores.html">FLORES</a></li>
+                        <li><a class="dropdown-item" href="macetero.html">MACETEROS</a></li>
+                        <li><a class="dropdown-item" href="arbusto.html">ARBUSTOS</a></li>
+                        <li><a class="dropdown-item" href="tierra.html">TIERRA</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">QUIERES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carro.html">CARRO COMPRAS</a>
+                </li>
+            </ul>
             </div>
         </div>
     </nav>
